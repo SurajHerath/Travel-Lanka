@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "143088996995",
+    "project_id": "travellanka-eb5e7",
+    "storage_bucket": "travellanka-eb5e7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143088996995:android:54d6ca1bd634100e4d01b6",
+        "android_client_info": {
+          "package_name": "com.example.travel_lanka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZwPOixZaBiqejg3kG0A_auNdWmxLZ2vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
