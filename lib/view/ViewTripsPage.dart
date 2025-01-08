@@ -1,9 +1,11 @@
+
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:intl/intl.dart';
 import 'package:travel_lanka/view/AddTripPage.dart';
 import 'package:travel_lanka/widget/TripCard.dart';
 import 'package:travel_lanka/view/ViewTripPage.dart';
+
 
 class ViewTripsPage extends StatelessWidget {
   final String email;
@@ -78,7 +80,7 @@ class ViewTripsPage extends StatelessWidget {
                                   startDate: startDate,
                                   endDate: endDate,
                                   category: 'Trip',
-                                  places: places,
+                                  places: places, tripId: '',
                                 ),
                               ),
                             );
