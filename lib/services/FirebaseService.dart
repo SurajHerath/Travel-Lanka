@@ -1,4 +1,5 @@
 import 'package:firebase_core/firebase_core.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 Future<void> initializeFirebase() async {
   await Firebase.initializeApp(
@@ -9,5 +10,10 @@ Future<void> initializeFirebase() async {
       projectId: 'travellanka-eb5e7',
       storageBucket: 'travellanka-eb5e7.firebasestorage.app',
     ),
+  );
+
+  // Enable offline capabilites for Firestore
+  FirebaseFirestore.instance.settings = const Settings(
+    persistenceEnabled: true,
   );
 }
